@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ListingsPage from './pages/ListingsPage';
 import MatchPage from './pages/MatchPage';
+import TenantPage from './pages/TenantPage';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/listings" element={<ListingsPage />} />
           <Route path="/match" element={<MatchPage />} />
+          <Route path="/tenant" element={<TenantPage />} />
         </Routes>
       </div>
     </Router>
